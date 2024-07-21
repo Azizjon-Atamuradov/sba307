@@ -1,12 +1,15 @@
 .mainContainer {
 border: solid black;
 height: 1800px;
+background-color: #333;
 }
 /* header------------------------------------------------------------------------------ */
 header {
 text-align: center;
 font-size: 40px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: red;
+margin-top: 1em; 
 }
 /* header------------------------------------------------------------------------------ */
 /* navbar----------------------------------------------------------------------------------- */
@@ -14,18 +17,24 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow: hidden;
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 1em;
+    display: flex;
+    justify-content: end;
+     
+   
  }
  .navbar a {
-    float: left;
+    float: right;
     font-size: 20px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+     
 
  }
 .dropdown {
-    float: left;
+    float: right;
     overflow: hidden;
 
 }
@@ -72,8 +81,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 /* anons */
 .anonsContainer {
-    border: solid red;
-    height: 750px;
+    /* border: solid red; */
+    height: 650px;
     margin: 1em;
     display: flex;
     justify-content: space-evenly;
@@ -86,9 +95,20 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 400px;
     width: 33%; 
     margin: 1em;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    font-size: 24px;
+    color:white ;
+}
+.color {
+    color: green;
+}
+.color1 {
+    color: red;
 }
 
-.text {
+/* .text {
     text-align: center;
     font-size: 18px;
     padding-top: 20px;
@@ -96,4 +116,279 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white ;
    
     
+} */
+ .info {
+    /* border: solid red; */
+    height: 550px;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+
+ }
+ .nurmagomedov {
+    /* border: solid green; */
+    height: 450px;
+    width: 420px;
+    margin: 3em;
+    background-color: white;
+ }
+ .nurmagomedov:hover {
+    background-color: red;
+ }
+
+ .McGREGOR {
+    /* border: solid purple; */
+    height:450px ;
+    width: 420px;
+    margin: 3em;
+    background-color: white;
+
+ }    
+ .McGREGOR:hover {
+    background-color: green;
+ }
+    
+ h2 {
+    text-align: center;
+ }
+ pre {
+    font-size: 20px;
+    
+ }
+ #logo {
+    height: 50px;
+ }
+
+ .follow {
+     
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+ }
+ /* .follow_khabib {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .follow_khabib:hover {
+    background-color: red;
+ }  */
+   /* //////////////////////////////////////////////////////////////////////////////////// */
+ /* /* figterscontainer ------------------------------------------------------- */
+
+
+ .fightersbigContainer {
+    
+    height: 4500px;
+    background-color: #333;
+     
+ }
+ .top {
+    text-align: center;
+    color: red;
+    padding-top: 35px;
+    
+ }
+ /* button----------------------------------------------------- */
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: red;
+    border: 2px solid  red; 
+    display: flex;
+    margin-left: 1450px;
+    
 }
+
+.button:hover {
+ 
+    background-color: white;
+    color: black;
+}
+
+ /* islam------------------------------------------------------------------------------------ */
+ .islam {
+  
+    height: 800px;
+    margin: 1em;
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+ }
+.makhachev {
+   
+    height: 700px;
+    width: 40%;
+    margin: 1em;
+    text-align: center;
+    background-color:gray;
+}
+
+.infoislam {
+    
+    height: 350px;
+    width: 30%;
+    margin: 1em;
+    background-color: antiquewhite;
+    
+}
+.infoislam:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.follow_islam {
+     
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+ }
+
+ .follow_islam a:hover {
+     
+    color: white;
+ }
+
+/* islam------------------------------------------------------------------------------------ */
+/* jon jones---------------------------------------------------------------------------- */
+.jon {
+    
+    height: 800px;
+    margin: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+ }
+ .jon_jones {
+   
+    height: 700px;
+    width: 40%;
+    margin: 1em;
+    text-align: center;
+    background-color: gray;
+}
+.infojon {
+   
+    height: 400px;
+    width: 30%;
+    margin: 1em;
+    background-color: antiquewhite;
+}
+.infojon:hover {
+    background-color: blueviolet;
+    color: white;
+}
+.follow_jon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+} 
+
+.follow_jon a:hover {
+     
+    color: white;
+ }
+/* jon jones---------------------------------------------------------------------------- */
+/* khamzat chimaev--------------------------------------------------------------------- */
+.khamzat {
+   
+    height: 800px;
+    margin: 1em;
+    display: flex;
+    justify-content: space-evenly;
+
+ }
+ .chimaev {
+ 
+    height: 700px;
+    width: 40%;
+    margin: 1em;
+    text-align: center;
+    background-color: gray;
+}
+.infokhamzat {
+   
+    height: 400px;
+    width: 30%;
+    margin: 1em;
+    background-color: antiquewhite;
+}
+
+.infokhamzat:hover {
+    background-color: cornflowerblue;
+    color: white;
+
+}
+.follow_khamzat {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+} 
+
+.follow_khamzat a:hover {
+     
+    color: white;
+ }
+/* khamzat chimaev--------------------------------------------------------------------- */
+/* dustin poirier-------------------------------------------------------------------------- */
+.dustin {
+  
+    height: 800px;
+    margin: 1em;
+    display: flex;
+    justify-content: space-evenly;;
+
+ }
+ .poirier {
+   
+    height: 700px;
+    width: 40%;
+    margin: 1em;
+    text-align: center;
+    background-color: gray;
+}
+.infodustin {
+   
+    height: 400px;
+    width: 30%;
+    margin: 1em;
+    background-color: antiquewhite;
+}
+.infodustin:hover {
+    background-color: lightcoral;
+    color: white;
+
+}
+.follow_dustin {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+} 
+
+.follow_dustin a:hover {
+     
+    color: white;
+ }
+/* dustin poirier-------------------------------------------------------------------------- */
+/* fightercontainers */
+
+
+
+
+
+
+
+
+
