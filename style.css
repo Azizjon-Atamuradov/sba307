@@ -386,7 +386,7 @@ margin-top: 1em;
 
 /* tickets page---------////////////////////////////////////////////////////////////////////// */
 .ticketsmainContainer {
-    border: solid red;
+    /* border: solid red; */
     height: 5200px;
     background-color: #333;
 }
@@ -395,7 +395,7 @@ margin-top: 1em;
 /* number---------------------------------------------------------------------------------- */
 
 .w7 {
-    border: solid black;
+    /* border: solid black; */
     height: 200px;
     display: flex;
     justify-content: center;
@@ -403,7 +403,7 @@ margin-top: 1em;
     
 }
 .number {
-    border: solid black;
+    /* border: solid black; */
     height: 100px;
     width: 150px;
     font-size: 25px;
@@ -411,7 +411,7 @@ margin-top: 1em;
     padding: 1em;
     margin: 1em;
     color:red;
-    background-color: darkslategrey;
+    /* background-color: darkslategrey; */
     
 }
 .number:hover {
@@ -422,7 +422,7 @@ margin-top: 1em;
 /* khabib vs conor ----------------------------------------------------------------------- */
 
 .khabib_vs_conor {
-    border: solid black;
+    /* border: solid black; */
     margin: 1em;
     display: flex;
     justify-content: space-between;
@@ -434,19 +434,19 @@ margin-top: 1em;
 
 
 .x {
-    border: solid green;
+    /* border: solid green; */
     height: 400px;
     width: 480px;
 }
 .data {
-    border: solid blue;
+    /* border: solid blue; */
     height: 400px;
     width: 480px;
-    color: antiquewhite;
+    color: white;
   
 }
 .y {
-    border: solid red;
+    /* border: solid red; */
     height: 400px;
     width: 480px;
     /* margin-right: 4em; */
@@ -484,7 +484,7 @@ margin-top: 1em;
 /* buy ticket */
 /* buy leveltickets--------------------------------------------------------- */
 .level {
-    border: solid blue;
+    /* border: solid blue; */
     height: 400px;
     margin: 1em;
     display: flex;
@@ -500,7 +500,7 @@ margin-top: 1em;
 }
  
 .checkbox {
-    border: solid black;
+    /* border: solid black; */
     width: 200px;
     height: 400px;
     font-size: 30px;
